@@ -30,5 +30,5 @@ for year in range(len(votes)):
 
 ax  = voteShare.plot(x = 'Year', y = "Republican Vote Share", \
         title = "President General Election Results in Accomack County, Virginia")
-
+### Wrong result. We wanted the results for ACCOMACK COUNTY ONLY
 ax.get_figure().savefig('accomack.png')
